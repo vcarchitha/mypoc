@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1528704171951
+Build-Jdk: 1.8.0_45
+Built-By: architha.vc
+Bundle-Description: Bundles for Integration Tests for MyPOC
+Bundle-ManifestVersion: 2
+Bundle-Name: MyPOC - Integration Tests Bundles
+Bundle-SymbolicName: org.myorg.mypoc.it.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.myorg.mypoc.it.tests;uses:="org.apache.sling.junit.a
+ nnotations,org.junit,org.junit.runner";version="0.0.1"
+Import-Package: org.apache.sling.api.resource;version="[2.10,3)",org.apa
+ che.sling.junit.annotations;version="[1.0,2)",org.apache.sling.settings
+ ;version="[1.3,2)",org.junit;version="[4.8,5)",org.junit.runner;version
+ ="[4.8,5)",org.myorg.mypoc.core.models;version="[0.0,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-3.3.0.201609221906

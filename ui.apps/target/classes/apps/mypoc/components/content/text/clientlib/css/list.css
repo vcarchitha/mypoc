@@ -1,0 +1,12 @@
+ul.red {
+    list-style-image: url('/apps/mypoc/components/content/text/clientlib/img/red.png');
+}
+ul.green {
+    list-style-image: url('/apps/mypoc/components/content/text/clientlib/img/green.png');
+}
+ul.black {
+    list-style-image: url('/apps/mypoc/components/content/text/clientlib/img/black.png');
+}
+ul.orange {
+    list-style-image: url('/apps/mypoc/components/content/text/clientlib/img/orange.png');
+}

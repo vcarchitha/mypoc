@@ -1,0 +1,9 @@
+org\myorg\mypoc\core\models\multifield\TouchMultiFieldBean.class
+org\myorg\mypoc\core\models\multifield\TouchMultiFieldComponentUse.class
+org\myorg\mypoc\core\servlets\SimpleServlet.class
+org\myorg\mypoc\core\listeners\SimpleResourceListener.class
+org\myorg\mypoc\core\package-info.class
+org\myorg\mypoc\core\filters\LoggingFilter.class
+org\myorg\mypoc\core\schedulers\SimpleScheduledTask$Config.class
+org\myorg\mypoc\core\schedulers\SimpleScheduledTask.class
+org\myorg\mypoc\core\models\HelloWorldModel.class

@@ -1,0 +1,7 @@
+#base=scripts
+Coral.templates.js
+List.js
+myList.js
+TableStyles.js
+listStyles.js
+CustomStyles.js

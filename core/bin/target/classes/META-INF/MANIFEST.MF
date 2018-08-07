@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1515067823567
+Build-Jdk: 1.8.0_45
+Built-By: architha.vc
+Bundle-Description: Core bundle for MyPOC
+Bundle-ManifestVersion: 2
+Bundle-Name: MyPOC - Core
+Bundle-SymbolicName: org.myorg.mypoc.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.myorg.mypoc.core.filters;version="0.0.1";uses:="java
+ x.servlet",org.myorg.mypoc.core.listeners;version="0.0.1";uses:="org.os
+ gi.service.event",org.myorg.mypoc.core.models;version="0.0.1";uses:="ja
+ vax.annotation,javax.inject,org.apache.sling.api.resource,org.apache.sl
+ ing.models.annotations",org.myorg.mypoc.core.models.multifield;version=
+ "0.0.1";uses:="com.adobe.cq.sightly",org.myorg.mypoc.core;version="1.0"
+ ,org.myorg.mypoc.core.schedulers;version="0.0.1",org.myorg.mypoc.core.s
+ ervlets;version="0.0.1";uses:="javax.servlet,org.apache.sling.api,org.a
+ pache.sling.api.servlets"
+Import-Package: javax.inject;version="0.0.0",com.adobe.cq.sightly;versio
+ n="[3.1,4)",javax.annotation,javax.servlet,org.apache.sling.api;version
+ ="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.apache.sl
+ ing.api.resource;version="[2.10,3)",org.apache.sling.api.servlets;versi
+ on="[2.2,3)",org.apache.sling.commons.json;version="[2.0,3)",org.apache
+ .sling.models.annotations;version="[1.4,2)",org.apache.sling.settings;v
+ ersion="[1.3,2)",org.osgi.service.event;version="[1.3,2)",org.slf4j;ver
+ sion="[1.5,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.Run
+ nable",osgi.service;objectClass:List<String>="javax.servlet.Filter",osg
+ i.service;objectClass:List<String>="javax.servlet.Servlet",osgi.service
+ ;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.myorg.mypoc.core.filters.LoggingFilter.x
+ ml,OSGI-INF/org.myorg.mypoc.core.listeners.SimpleResourceListener.xml,O
+ SGI-INF/org.myorg.mypoc.core.schedulers.SimpleScheduledTask.xml,OSGI-IN
+ F/org.myorg.mypoc.core.servlets.SimpleServlet.xml
+Sling-Model-Packages: org.myorg.mypoc.core
+Tool: Bnd-3.3.0.201609221906

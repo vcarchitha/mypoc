@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mypoc"/>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/mypoc"/>
+        <filter root="/libs"/>
+</workspaceFilter>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/content/jcr_root"/>
+	<classpathentry kind="var" path="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0.jar" sourcepath="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_45"/>
+	<classpathentry kind="src" path="/mypoc.core"/>
+	<classpathentry kind="var" path="M2_REPO/com/adobe/aem/uber-jar/6.2.0/uber-jar-6.2.0-apis.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/day/cq/wcm/cq-wcm-taglib/5.7.4/cq-wcm-taglib-5.7.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

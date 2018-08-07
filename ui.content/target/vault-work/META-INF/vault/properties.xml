@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>MyPOC - UI content</comment>
+<entry key="createdBy">architha.vc</entry>
+<entry key="name">mypoc.ui.content</entry>
+<entry key="created">2018-06-11T13:32:50.932+0530</entry>
+<entry key="groupId">org.myorg</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">MyPOC Content Package</entry>
+<entry key="description">UI content package for MyPOC</entry>
+<entry key="artifactId">mypoc.ui.content</entry>
+<entry key="path">/etc/packages/MyPOC Content Package/mypoc.ui.content.zip</entry>
+</properties>
